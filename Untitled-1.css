@@ -1,0 +1,62 @@
+
+  
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    div.container{
+      border: 5px solid #cec9f5;
+      width: 80%;
+      margin: 0 auto 0 auto;
+    }
+    header{
+      background-color: #f5c9eb;
+    }
+    .hero img{
+      width: 100%;
+    }
+    div.left, div.middle, div.right{
+      border: 3px dotted lightblue;
+      width: 30%;
+      margin-right: 3%;
+      display: inline-block;
+    }
+    div.right{
+      float: right;
+      margin-right: 0;
+    }
+    
+    div.middle{
+      margin: 0 3%;
+    }
+    aside img{
+      width: 100%;
+    }
+    
+    nav{
+      background-color:rgb(173, 214, 250)
+    
+    }
+    
+    ul{
+      text-align: center;
+    
+    }
+    li{
+      display: inline-block;
+      width: 150px;
+      border: 2px solid white;
+      line-height: 3em;
+      font-family: cursive;
+      font-variant: small-caps;
+    
+    }
+    a{
+      color: lightpink;
+      text-decoration: none;
+      border: 1px solid palegoldenrod;
+      display: block;
+    
+    }
+     
